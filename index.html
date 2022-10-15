@@ -8,20 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
     <title>Mini Portifólio</title>
+
 </head>
 
 <body>
     <!-- Comentário -->
     <main class="cartao">
         <div class="minhas-informacoes">
-            <img src="./src/imagens/foto-perfil.png" alt="Minha foto de perfil">
+            <img class="foto-perfil" src="./src/imagens/foto-perfil.png" alt="Minha foto de perfil">
             <h1 class="nome" style="font-family: 'VT323', monospace;">Iago Nascimento de Pinho</h1>
             <h2 class="cargo">Desenvolvedor FullStack Júnior</h2>
         </div>
         <div class="conteudo">
             <ul class="abas">
-                <li class="aba">
+                <li class="aba selecionado">
                     <img src="./src/imagens/sobre.gif" alt="GIF (Sobre Mim)">
                 </li>
                 <li class="aba">
@@ -29,22 +33,22 @@
                 </li>
             </ul>
             <div class="informacoes-abas">
-                <div class="informacao">
+                <div class="informacao selecionado">
                     <h3 class="sub-titulo">Sobre</h3>
                     <div>
-                        <p>
+                        <p class="descricao">
                             Oi! meu nome é Iago Nascimento de Pinho, seja bem-vindo(a)!
                         </p>
-
-                        <p>
-                            Sou uma pessoa apaixonada pela programação desde que eu tinha 15
-                            anos. Sempre tive o sonho de trabalhar com programação e
-                            atualmente comecei a colocar esse sonho em prática estudando
-                            <span>HTML, CSS e JavaScript.</span>
+                        <p class="descricao"> 
+                            Eu conheci a programação quando tinha 15 anos por volta de 2017. Meu primeiro contato foi
+                            através do meu colégio que me apresentaram o Python, assim comecei a estudar, mas não senti
+                            que houvesse futuro para mim nessa área. No ano 2021, comecei a me interessar novamente pela
+                            a área e em um devaneio de um adolescente decidi ingressar na faculdade de Engenharia da
+                            Computação no IFCE. Dei meus primeiros passos em <span>C, Java, Dart/Flutter</span> e, não menos
+                            importante, o combo de <span> JavaScript + HTML + CSS + ReactJS</span>.
                             Gosto muito de café (até demais), e meus principais hobbies são
-                            jogar MMO RPG, ver animes e séries.
+                            jogar FPS, ver animes e séries e passar um tempo de qualidade com a minha namorada.
                         </p>
-
                     </div>
                 </div>
                 <div class="informacao">
